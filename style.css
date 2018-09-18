@@ -1,0 +1,55 @@
+
+/*sortable start*/
+#sortable { list-style-type: none; margin: 0 auto; padding: 0; width: 50%; }
+  #sortable li { margin: 0 3px 3px 3px; padding: 20px; padding-left: 1.5em; font-size: 16px; height: 30px; padding-bottom: 40px; }
+  #sortable li span { position: absolute; margin-left: -1.2em; }
+
+/*resizable start*/
+   #resizable { margin:0 auto;
+    width:150px; height: 150px; padding: 0.5em; }
+  #resizable h3 { text-align: center; margin: 0; }
+
+#accordion{
+      width: 60%;
+    margin: 0 auto;
+}
+
+
+.ui-tabs-vertical { width: 55em; }
+  .ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 12em; }
+  .ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+  .ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+  .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; }
+  .ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: right; width: 40em;}
+
+
+label {
+    display: inline-block;
+    width: 5em;
+}
+
+.toggler { width: 500px; height: 200px; position: relative; }
+    #button { padding: .5em 1em; text-decoration: none; }
+    #effect { width: 300px;  padding: 1em; border: 1px solid #000; background: #eee; color: #333; }
+    .newClass { text-indent: 40px; letter-spacing: .4em; width: 410px; height: 200px; padding: 30px; margin: 10px; font-size: 1.1em; }
+
+
+.toggler { width: 500px; height: 200px; position: relative; }
+    #button { padding: .5em 1em; text-decoration: none; }
+    #effect { width: 240px; height: 170px; padding: 0.4em; position: relative; background: #fff; }
+    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+
+
+
+#progressbar {
+    margin-top: 20px;
+  }
+ 
+  .progress-label {
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+  }
+ 
+  .ui-dialog-titlebar-close {
+    display: none;
+  }
